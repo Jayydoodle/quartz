@@ -84,13 +84,7 @@ export function renderPage(
             }
 
             node.children = [
-              blockNode,
-              {
-                type: "element",
-                tagName: "a",
-                properties: { href: inner.properties?.href, class: ["internal"] },
-                children: [{ type: "text", value: `Link to original` }],
-              },
+              blockNode
             ]
           }
         } else if (blockRef?.startsWith("#") && page.htmlAst) {
@@ -117,13 +111,7 @@ export function renderPage(
           }
 
           node.children = [
-            ...(page.htmlAst.children.slice(startIdx, endIdx) as ElementContent[]),
-            {
-              type: "element",
-              tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal"] },
-              children: [{ type: "text", value: `Link to original` }],
-            },
+            ...(page.htmlAst.children.slice(startIdx, endIdx) as ElementContent[])
           ]
         } else if (page.htmlAst) {
           // page transclude
@@ -135,13 +123,7 @@ export function renderPage(
                 { type: "text", value: page.frontmatter?.title ?? `Transclude of ${page.slug}` },
               ],
             },
-            ...(page.htmlAst.children as ElementContent[]),
-            {
-              type: "element",
-              tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal"] },
-              children: [{ type: "text", value: `Link to original` }],
-            },
+            ...(page.htmlAst.children as ElementContent[])
           ]
         }
       }
