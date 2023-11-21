@@ -4,9 +4,6 @@ This is a beginner's guide to getting started with crypto investing.
 ## [[Watchlist|Current Watchlist]]
 Current list of crypto projects I am actively tracking and researching
 
-## [[Technical Analysis Of The Financial Markets]]
-My notes from reading the book 'Technical Analysis of the Financial Markets' by John J. Murphy
-
 ## Changing Your Mindset
 
 This series of videos is all about changing your mindset to align with the vision of the person you want to become.  Before you can become successful, you must think, breathe, and act like the best version of yourself.
