@@ -35,7 +35,6 @@ tags:
 - A return move is a bounce back to the bottom of the neckline, or to a previous reaction low point (both of which have now become overhead resistance).  If the initial breaking of the neckline is on very heavy trading, the odds for a return move are diminished because the increased activity reflects greater downside pressure.  Lighter volume on the initial break increases the likelihood of a return move.  That bounce should be on lighter volume though, and the resumption of the downtrend should be accompanied by heavier volume
   
 > [!TIP] A head and shoulders top requires:
-> 
 >- A prior uptrend
 >- A left shoulder on heavier volume, followed by a corrective dip
 >- A rally into new highs, but on lighter volume
